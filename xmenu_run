@@ -1,30 +1,37 @@
 #!/bin/sh
 
 cat <<EOF | xmenu "$@"  | sh &
-Web Browsers
+World Wide Web
 	IMG:/etc/p3ng0s/icons/chromium.png	Chromium	chromium --no-sandbox
-Applications
-	IMG:/etc/p3ng0s/icons/gimp.png	Image editor	gimp
-	IMG:/etc/p3ng0s/icons/system-file-manager.png	File Manager	nautilus
-	IMG:/etc/p3ng0s/icons/vlc.png	Vlc	vlc
+	IMG:/etc/p3ng0s/icons/chromium.png	Neo4j Database	chromium --no-sandbox "http://127.0.0.1:7474/"
+	IMG:/etc/p3ng0s/icons/chromium.png	Wifi Pineapple	chromium --no-sandbox "http://172.16.42.1:1471/"
+	IMG:/etc/p3ng0s/icons/chromium.png	p3ng0s Wiki	chromium --no-sandbox "https://leosmith.wtf/rice/"
+	IMG:/etc/p3ng0s/icons/chromium.png	Notion	chromium --no-sandbox "https://notion.so/"
+	IMG:/etc/p3ng0s/icons/chromium.png	Github	chromium --no-sandbox "https://github.com/"
+	IMG:/etc/p3ng0s/icons/chromium.png	HackerOne	chromium --no-sandbox "https://hackerone.com/"
+Networking
+	IMG:/etc/p3ng0s/icons/wireshark.png	Wireshark	 wireshark
 	IMG:/etc/p3ng0s/icons/filezilla.png	FileZilla	filezilla
+	IMG:/etc/p3ng0s/icons/remmina.png	Remmina	remmina
+System
+	IMG:/etc/p3ng0s/icons/system-file-manager.png	File Manager	nautilus
+	IMG:/etc/p3ng0s/icons/gimp.png	Image editor	gimp
+	IMG:/etc/p3ng0s/icons/gparted.png	Gparted	kdesu gparted
+	IMG:/etc/p3ng0s/icons/gpick.png	Gpick	gpick
+Entertainment
+	IMG:/etc/p3ng0s/icons/vlc.png	Vlc	vlc
 	IMG:/etc/p3ng0s/icons/transmission.png	Transmission	transmission-gtk
 Pentesting
 	IMG:/etc/p3ng0s/icons/BurpSuite.png	BurpSuite	BurpSuiteCommunity
-	IMG:/etc/p3ng0s/icons/wireshark.png	Wireshark	 wireshark
-Tools
-	IMG:/etc/p3ng0s/icons/remmina.png	Remmina	remmina
-	IMG:/etc/p3ng0s/icons/gparted.png	Gparted	kdesu gparted
-	IMG:/etc/p3ng0s/icons/postman.png	Postman	postman
-	IMG:/etc/p3ng0s/icons/gpick.png	Gpick	gpick
-	IMG:/etc/p3ng0s/icons/sqlite.png	DB Browser	sqlitebrowser
-Editors
+	IMG:/etc/p3ng0s/icons/wireshark.png	Wireshark	 bloodhound
+Development
 	IMG:/etc/p3ng0s/icons/vim.png	Vim	st vim
+	IMG:/etc/p3ng0s/icons/sqlite.png	DB Browser	sqlitebrowser
+	IMG:/etc/p3ng0s/icons/postman.png	Postman	postman
 
 IMG:/etc/p3ng0s/icons/terminal.png	Terminal (st)		st tmux
 
 IMG:/etc/p3ng0s/icons/help.png	Help	dmenu_splain "$1" "$2" "$3" "$4" "$5" "$6" "$7" "$8" "$9" "${10}" '-h' '25' '-bw' 'p' '-l' '15' '-p' '$' '-b'
-IMG:/etc/p3ng0s/icons/themes.png	Theme	lxappearance
 IMG:/etc/p3ng0s/icons/sound.png	Sound	pavucontrol
 
 IMG:/etc/p3ng0s/icons/edit-delete.png	Force Quit		xkill
