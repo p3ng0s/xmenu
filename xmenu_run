@@ -2,61 +2,28 @@
 
 cat <<EOF | xmenu "$@"  | sh &
 Web Browsers
-	IMG:/etc/p3ng0s/icons/vivaldi.png	Vivaldi	vivaldi
-	IMG:/etc/p3ng0s/icons/tor.png	Tor Browser	tor-browser
-	IMG:/etc/p3ng0s/icons/firefox.png	Firefox	firefox
-	IMG:/etc/p3ng0s/icons/chromium.png	Chromium	chromium
+	IMG:/etc/p3ng0s/icons/chromium.png	Chromium	chromium --no-sandbox
 Applications
-	IMG:/etc/p3ng0s/icons/discord.png	Discord	discord
-	IMG:/etc/p3ng0s/icons/telegram.png	Telegram	telegram-desktop
 	IMG:/etc/p3ng0s/icons/gimp.png	Image editor	gimp
-	IMG:/etc/p3ng0s/icons/inkscape.png	Inkscape	inkscape
 	IMG:/etc/p3ng0s/icons/system-file-manager.png	File Manager	nautilus
-	IMG:/etc/p3ng0s/icons/kdenlive.png	Video editor	kdenlive
-	IMG:/etc/p3ng0s/icons/audacity.png	Sound editor	audacity
-	IMG:/etc/p3ng0s/icons/calibre.png	Books	calibre
 	IMG:/etc/p3ng0s/icons/vlc.png	Vlc	vlc
-	IMG:/etc/p3ng0s/icons/teams.png	Teams	teams
-	IMG:/etc/p3ng0s/icons/gitkraken.png	Gitkraken	gitkraken
-	IMG:/etc/p3ng0s/icons/xmind.png	XMind	XMind
-	IMG:/etc/p3ng0s/icons/cherrytree.png	CherryTree	cherrytree
 	IMG:/etc/p3ng0s/icons/filezilla.png	FileZilla	filezilla
 	IMG:/etc/p3ng0s/icons/transmission.png	Transmission	transmission-gtk
-Music
-	IMG:/etc/p3ng0s/icons/ytmusic.png	YT Music	youtube-music-bin
-	IMG:/etc/p3ng0s/icons/nuclear.png	Nuclear	nuclear
 Pentesting
 	IMG:/etc/p3ng0s/icons/BurpSuite.png	BurpSuite	BurpSuiteCommunity
-	IMG:/etc/p3ng0s/icons/zap.png	OWAP Zap	zap.sh
-	IMG:/etc/p3ng0s/icons/Ghidra.png	Ghidra	ghidra
-	IMG:/etc/p3ng0s/icons/wireshark.png	Wireshark	raro.x wireshark
-	IMG:/etc/p3ng0s/icons/immunity-debugger.png	Immunity Debugger (edb)	edb
-Games
-	IMG:/etc/p3ng0s/icons/assaultcube.png	Assault Cube	assaultcube
-	IMG:/etc/p3ng0s/icons/mindustry.png	Mindustry	mindustry
-	IMG:/etc/p3ng0s/icons/steam.png	Steam	steam
-	IMG:/etc/p3ng0s/icons/dolphin.png	Dolphin	dolphin-emu
-	IMG:/etc/p3ng0s/icons/desmume.png	Desmume	desmume
-	IMG:/etc/p3ng0s/icons/citra.png	Citra	citra-qt
+	IMG:/etc/p3ng0s/icons/wireshark.png	Wireshark	 wireshark
 Tools
-	IMG:/etc/p3ng0s/icons/screenkey.png	ScreenKey	screenkey --scr 1 --opacity 0.2 -f "Hack Nerd Font:size=13"
 	IMG:/etc/p3ng0s/icons/remmina.png	Remmina	remmina
-	IMG:/etc/p3ng0s/icons/fritzing.png	Fritzing	fritzing
-	IMG:/etc/p3ng0s/icons/gparted.png	Gparted	raro.x gparted
-	IMG:/etc/p3ng0s/icons/virtualbox.png	Virtual Box	virtualbox
+	IMG:/etc/p3ng0s/icons/gparted.png	Gparted	kdesu gparted
 	IMG:/etc/p3ng0s/icons/postman.png	Postman	postman
 	IMG:/etc/p3ng0s/icons/gpick.png	Gpick	gpick
 	IMG:/etc/p3ng0s/icons/sqlite.png	DB Browser	sqlitebrowser
 Editors
-	IMG:/etc/p3ng0s/icons/emacs.png	Emacs	emacs
 	IMG:/etc/p3ng0s/icons/vim.png	Vim	st vim
-	IMG:/etc/p3ng0s/icons/android-studio.png	Android Studio	android-studio
-	IMG:/etc/p3ng0s/icons/gedit.png	Gedit	gedit
-	IMG:/etc/p3ng0s/icons/atom.png	Atom	atom
-IMG:/etc/p3ng0s/icons/terminal.png	Terminal (st)		st
+
+IMG:/etc/p3ng0s/icons/terminal.png	Terminal (st)		st tmux
 
 IMG:/etc/p3ng0s/icons/help.png	Help	dmenu_splain "$1" "$2" "$3" "$4" "$5" "$6" "$7" "$8" "$9" "${10}" '-h' '25' '-bw' 'p' '-l' '15' '-p' '$' '-b'
-IMG:/etc/p3ng0s/icons/edit.png	Edit config	dmenu_cfg "$1" "$2" "$3" "$4" "$5" "$6" "$7" "$8" "$9" "${10}" '-h' '25' '-bw' 'p' '-l' '15' '-p' '$' '-b'
 IMG:/etc/p3ng0s/icons/themes.png	Theme	lxappearance
 IMG:/etc/p3ng0s/icons/sound.png	Sound	pavucontrol
 
