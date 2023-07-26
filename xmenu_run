@@ -2,13 +2,16 @@
 
 cat <<EOF | xmenu "$@"  | sh &
 World Wide Web
-	IMG:/etc/p3ng0s/icons/chromium.png	Chromium	chromium --no-sandbox
-	IMG:/etc/p3ng0s/icons/chromium.png	Neo4j Database	chromium --no-sandbox "http://127.0.0.1:7474/"
-	IMG:/etc/p3ng0s/icons/chromium.png	Wifi Pineapple	chromium --no-sandbox "http://172.16.42.1:1471/"
-	IMG:/etc/p3ng0s/icons/chromium.png	p3ng0s Wiki	chromium --no-sandbox "https://leosmith.wtf/rice/"
-	IMG:/etc/p3ng0s/icons/chromium.png	Notion	chromium --no-sandbox "https://notion.so/"
-	IMG:/etc/p3ng0s/icons/chromium.png	Github	chromium --no-sandbox "https://github.com/"
-	IMG:/etc/p3ng0s/icons/chromium.png	HackerOne	chromium --no-sandbox "https://hackerone.com/"
+	IMG:/etc/p3ng0s/icons/chromium.png	Chromium	chromium
+	IMG:/etc/p3ng0s/icons/chromium.png	Neo4j Database	chromium "http://127.0.0.1:7474/"
+	IMG:/etc/p3ng0s/icons/chromium.png	Wifi Pineapple	chromium "http://172.16.42.1:1471/"
+	IMG:/etc/p3ng0s/icons/chromium.png	p3ng0s Wiki	chromium "https://leosmith.wtf/rice/"
+	IMG:/etc/p3ng0s/icons/chromium.png	Havoc	chromium "havocframework.com/"
+	IMG:/etc/p3ng0s/icons/chromium.png	Suckless	chromium "https://dwm.suckless.org"
+	IMG:/etc/p3ng0s/icons/chromium.png	Arch Wiki	chromium "https://wiki.archlinux.org/"
+	IMG:/etc/p3ng0s/icons/chromium.png	Notion	chromium "https://notion.so/"
+	IMG:/etc/p3ng0s/icons/chromium.png	Github	chromium "https://github.com/"
+	IMG:/etc/p3ng0s/icons/chromium.png	HackerOne	chromium "https://hackerone.com/"
 Networking
 	IMG:/etc/p3ng0s/icons/wireshark.png	Wireshark	 wireshark
 	IMG:/etc/p3ng0s/icons/filezilla.png	FileZilla	filezilla
@@ -23,10 +26,11 @@ Entertainment
 	IMG:/etc/p3ng0s/icons/transmission.png	Transmission	transmission-gtk
 Pentesting
 	IMG:/etc/p3ng0s/icons/BurpSuite.png	BurpSuite	BurpSuiteCommunity
-	IMG:/etc/p3ng0s/icons/wireshark.png	Wireshark	 bloodhound
+	IMG:/etc/p3ng0s/icons/wireshark.png	Bloodhound	 bloodhound
 Development
 	IMG:/etc/p3ng0s/icons/vim.png	Vim	st vim
 	IMG:/etc/p3ng0s/icons/sqlite.png	DB Browser	sqlitebrowser
+	IMG:/etc/p3ng0s/icons/sqlite.png	qFlipper	qFlipper
 	IMG:/etc/p3ng0s/icons/postman.png	Postman	postman
 
 IMG:/etc/p3ng0s/icons/terminal.png	Terminal (st)		st tmux
