@@ -25,8 +25,8 @@ Entertainment
 	IMG:/etc/p3ng0s/icons/vlc.png	Vlc	vlc
 	IMG:/etc/p3ng0s/icons/transmission.png	Transmission	transmission-gtk
 Pentesting
-	IMG:/etc/p3ng0s/icons/BurpSuite.png	BurpSuite	BurpSuiteCommunity
-	IMG:/etc/p3ng0s/icons/bloodhound.png	Bloodhound	 bloodhound
+	IMG:/etc/p3ng0s/icons/BurpSuite.png	BurpSuite	BurpSuitePro
+	IMG:/etc/p3ng0s/icons/bloodhound.png	Bloodhound	Bloodhound
 	IMG:/etc/p3ng0s/icons/havoc.png	Havoc	havocclient
 Development
 	IMG:/etc/p3ng0s/icons/vim.png	Vim	st vim
