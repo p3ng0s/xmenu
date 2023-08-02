@@ -33,6 +33,7 @@ Development
 	IMG:/etc/p3ng0s/icons/sqlite.png	DB Browser	sqlitebrowser
 	IMG:/etc/p3ng0s/icons/qflipper.png	qFlipper	kdesu qFlipper
 	IMG:/etc/p3ng0s/icons/postman.png	Postman	postman
+	IMG:/etc/p3ng0s/icons/virtman.png	Virtual Manager	kdesu virt-manager
 
 IMG:/etc/p3ng0s/icons/terminal.png	Terminal (st)		st tmux
 
