@@ -2,16 +2,17 @@
 
 cat <<EOF | xmenu "$@"  | sh &
 World Wide Web
-	IMG:/etc/p3ng0s/icons/chromium.png	Chromium	chromium
-	IMG:/etc/p3ng0s/icons/neo4j.png	Neo4j Database	chromium "http://127.0.0.1:7474/"
-	IMG:/etc/p3ng0s/icons/wifipineapple.png	Wifi Pineapple	chromium "http://172.16.42.1:1471/"
-	IMG:/etc/p3ng0s/icons/p3ng0s.png	p3ng0s Wiki	chromium "https://leosmith.wtf/rice/"
-	IMG:/etc/p3ng0s/icons/havoc.png	Havoc wiki	chromium "https://havocframework.com/"
-	IMG:/etc/p3ng0s/icons/suckless.png	Suckless	chromium "https://dwm.suckless.org"
-	IMG:/etc/p3ng0s/icons/arch.png	Arch Wiki	chromium "https://wiki.archlinux.org/"
-	IMG:/etc/p3ng0s/icons/notion.png	Notion	chromium "https://notion.so/"
-	IMG:/etc/p3ng0s/icons/github.png	Github	chromium "https://github.com/"
-	IMG:/etc/p3ng0s/icons/hackerone.png	HackerOne	chromium "https://hackerone.com/"
+	IMG:/etc/p3ng0s/icons/firefox.png	Firefox	firefox
+	IMG:/etc/p3ng0s/icons/neo4j.png	Neo4j Database	firefox "http://127.0.0.1:7474/"
+	IMG:/etc/p3ng0s/icons/wifipineapple.png	Wifi Pineapple	firefox "http://172.16.42.1:1471/"
+	IMG:/etc/p3ng0s/icons/p3ng0s.png	p3ng0s Wiki	firefox "https://leosmith.wtf/rice/"
+	IMG:/etc/p3ng0s/icons/xss_bomb.png	XSS Bomb	firefox "http://leosmith.wtf/xss/"
+	IMG:/etc/p3ng0s/icons/havoc.png	Havoc wiki	firefox "https://havocframework.com/"
+	IMG:/etc/p3ng0s/icons/suckless.png	Suckless	firefox "https://dwm.suckless.org"
+	IMG:/etc/p3ng0s/icons/arch.png	Arch Wiki	firefox "https://wiki.archlinux.org/"
+	IMG:/etc/p3ng0s/icons/notion.png	Notion	firefox "https://notion.so/"
+	IMG:/etc/p3ng0s/icons/github.png	Github	firefox "https://github.com/"
+	IMG:/etc/p3ng0s/icons/hackerone.png	HackerOne	firefox "https://hackerone.com/"
 Networking
 	IMG:/etc/p3ng0s/icons/wireshark.png	Wireshark	 wireshark
 	IMG:/etc/p3ng0s/icons/filezilla.png	FileZilla	filezilla
