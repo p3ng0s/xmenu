@@ -3,7 +3,6 @@
 cat <<EOF | xmenu "$@"  | sh &
 World Wide Web
 	IMG:/etc/p3ng0s/icons/firefox.png	Firefox	firefox
-	IMG:/etc/p3ng0s/icons/neo4j.png	Neo4j Database	firefox "http://127.0.0.1:7474/"
 	IMG:/etc/p3ng0s/icons/wifipineapple.png	Wifi Pineapple	firefox "http://172.16.42.1:1471/"
 	IMG:/etc/p3ng0s/icons/p3ng0s.png	p3ng0s Wiki	firefox "https://leosmith.wtf/rice/"
 	IMG:/etc/p3ng0s/icons/xss_bomb.png	XSS Bomb	firefox "http://leosmith.wtf/xss/"
