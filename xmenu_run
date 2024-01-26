@@ -26,7 +26,8 @@ Entertainment
 	IMG:/etc/p3ng0s/icons/transmission.png	Transmission	transmission-gtk
 Pentesting
 	IMG:/etc/p3ng0s/icons/BurpSuite.png	BurpSuite	BurpSuitePro
-	IMG:/etc/p3ng0s/icons/bloodhound.png	Bloodhound	firefox "http://localhost:$(cat $HOME/.p3ng0s.json | jq -r .bloodhound_port)/" && ssh -N -L $(cat $HOME/.p3ng0s.json | jq -r .bloodhound_port):localhost:$(cat $HOME/.p3ng0s.json | jq -r .bloodhound_port) p4p1@$(cat $HOME/.p3ng0s.json | jq -r .bloodhound)
+	IMG:/etc/p3ng0s/icons/bloodhound.png	Bloodhound	firefox "http://localhost:$(cat $HOME/.p3ng0s.json | jq -r .bloodhound.lport)/"
+	IMG:/etc/p3ng0s/icons/wazuh.png	SOC	firefox "http://localhost:$(cat $HOME/.p3ng0s.json | jq -r .soc.lport)/"
 	IMG:/etc/p3ng0s/icons/havoc.png	Havoc	havocclient
 Development
 	IMG:/etc/p3ng0s/icons/vim.png	Vim	st vim
