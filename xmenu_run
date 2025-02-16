@@ -18,6 +18,7 @@ Networking
 	IMG:/etc/p3ng0s/icons/remmina.png	Remmina	remmina
 System
 	IMG:/etc/p3ng0s/icons/system-file-manager.png	File Manager	nautilus
+	IMG:/etc/p3ng0s/icons/obsidian.png	Obsidian	obsidian
 	IMG:/etc/p3ng0s/icons/gimp.png	Image editor	gimp
 	IMG:/etc/p3ng0s/icons/gparted.png	Gparted	kdesu gparted
 	IMG:/etc/p3ng0s/icons/gpick.png	Gpick	gpick
