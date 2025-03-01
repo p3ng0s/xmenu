@@ -2,16 +2,15 @@
 
 cat <<EOF | xmenu "$@"  | sh &
 World Wide Web
-	IMG:/etc/p3ng0s/icons/firefox.png	Firefox	firefox
-	IMG:/etc/p3ng0s/icons/wifipineapple.png	Wifi Pineapple	firefox "http://172.16.42.1:1471/"
-	IMG:/etc/p3ng0s/icons/p3ng0s.png	p3ng0s Wiki	firefox "https://leosmith.wtf/rice/"
-	IMG:/etc/p3ng0s/icons/xss_bomb.png	XSS Bomb	firefox "http://leosmith.wtf/xss/"
-	IMG:/etc/p3ng0s/icons/havoc.png	Havoc wiki	firefox "https://havocframework.com/"
-	IMG:/etc/p3ng0s/icons/suckless.png	Suckless	firefox "https://dwm.suckless.org"
-	IMG:/etc/p3ng0s/icons/arch.png	Arch Wiki	firefox "https://wiki.archlinux.org/"
-	IMG:/etc/p3ng0s/icons/notion.png	Notion	firefox "https://notion.so/"
-	IMG:/etc/p3ng0s/icons/github.png	Github	firefox "https://github.com/"
-	IMG:/etc/p3ng0s/icons/hackerone.png	HackerOne	firefox "https://hackerone.com/"
+	IMG:/etc/p3ng0s/icons/qutebrowser.png	QuteBrowser	qutebrowser
+	IMG:/etc/p3ng0s/icons/wifipineapple.png	Wifi Pineapple	qutebrowser "http://172.16.42.1:1471/"
+	IMG:/etc/p3ng0s/icons/p3ng0s.png	p3ng0s Wiki	qutebrowser "https://leosmith.wtf/rice/"
+	IMG:/etc/p3ng0s/icons/xss_bomb.png	XSS Bomb	qutebrowser "http://leosmith.wtf/xss/"
+	IMG:/etc/p3ng0s/icons/havoc.png	Havoc wiki	qutebrowser "https://havocframework.com/"
+	IMG:/etc/p3ng0s/icons/suckless.png	Suckless	qutebrowser "https://dwm.suckless.org"
+	IMG:/etc/p3ng0s/icons/arch.png	Arch Wiki	qutebrowser "https://wiki.archlinux.org/"
+	IMG:/etc/p3ng0s/icons/github.png	Github	qutebrowser "https://github.com/"
+	IMG:/etc/p3ng0s/icons/hackerone.png	HackerOne	qutebrowser "https://hackerone.com/"
 Networking
 	IMG:/etc/p3ng0s/icons/wireshark.png	Wireshark	 wireshark
 	IMG:/etc/p3ng0s/icons/filezilla.png	FileZilla	filezilla
@@ -27,8 +26,8 @@ Entertainment
 	IMG:/etc/p3ng0s/icons/transmission.png	Transmission	transmission-gtk
 Pentesting
 	IMG:/etc/p3ng0s/icons/BurpSuite.png	BurpSuite	BurpSuitePro
-	IMG:/etc/p3ng0s/icons/bloodhound.png	Bloodhound	firefox "http://localhost:$(cat $HOME/.p3ng0s.json | jq -r .bloodhound.lport)/"
-	IMG:/etc/p3ng0s/icons/wazuh.png	SOC	firefox "http://localhost:$(cat $HOME/.p3ng0s.json | jq -r .soc.lport)/"
+	IMG:/etc/p3ng0s/icons/bloodhound.png	Bloodhound	qutebrowser "http://localhost:$(cat $HOME/.p3ng0s.json | jq -r .bloodhound.lport)/"
+	IMG:/etc/p3ng0s/icons/wazuh.png	SOC	qutebrowser "http://localhost:$(cat $HOME/.p3ng0s.json | jq -r .soc.lport)/"
 	IMG:/etc/p3ng0s/icons/havoc.png	Havoc	havocclient
 Development
 	IMG:/etc/p3ng0s/icons/vim.png	Vim	st vim
