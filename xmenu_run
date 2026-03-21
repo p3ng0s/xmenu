@@ -1,6 +1,6 @@
 #!/bin/sh
 
-[[ "$(cat /etc/hostname)" = "p3ng0s-live" || -d /home/p4p1-live/ ]] && INSTALLER=$'IMG:/etc/p3ng0s/icons/installer.png	Installer	pkexec st /etc/p3ng0s/installer/installer.sh\n' || INSTALLER=""
+[[ "$(cat /etc/hostname)" = "p3ng0s-live" || -d /home/p4p1-live/ ]] && INSTALLER=$'IMG:/etc/p3ng0s/icons/installer.png	Install p3ng0s	pkexec st /etc/p3ng0s/installer/installer.sh\n' || INSTALLER=""
 
 cat <<EOF | xmenu "$@"  | sh &
 World Wide Web
@@ -26,7 +26,7 @@ Entertainment
 	IMG:/etc/p3ng0s/icons/vlc.png	Vlc	vlc
 	IMG:/etc/p3ng0s/icons/transmission.png	Transmission	transmission-gtk
 Pentesting
-	IMG:/etc/p3ng0s/icons/BurpSuite.png	BurpSuite	BurpSuitePro
+	IMG:/etc/p3ng0s/icons/BurpSuite.png	BurpSuite	BurpSuite
 	IMG:/etc/p3ng0s/icons/bloodhound.png	Bloodhound	qutebrowser "http://localhost:$(cat $HOME/.p3ng0s.json | jq -r .bloodhound.lport)/"
 	IMG:/etc/p3ng0s/icons/wazuh.png	SOC	qutebrowser "http://localhost:$(cat $HOME/.p3ng0s.json | jq -r .soc.lport)/"
 	IMG:/etc/p3ng0s/icons/conquest.png	Conquest	conquest
