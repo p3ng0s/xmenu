@@ -1,6 +1,6 @@
 #!/bin/sh
 
-[[ "$(cat /etc/hostname)" = "p3ng0s-live" || -d /home/p4p1-live/ ]] && INSTALLER=$'IMG:/etc/p3ng0s/icons/installer.png	Install p3ng0s	pkexec st /etc/p3ng0s/installer/installer.sh\n' || INSTALLER=""
+[[ "$(cat /etc/hostname)" = "p3ng0s-live" || -d /home/p4p1-live/ ]] && INSTALLER=$'IMG:/etc/p3ng0s/icons/installer.png	Install p3ng0s	pkexec env DISPLAY=$DISPLAY PATH=$PATH XAUTHORITY=$XAUTHORITY st /etc/p3ng0s/installer/installer.sh\n' || INSTALLER=""
 
 cat <<EOF | xmenu "$@"  | sh &
 World Wide Web
